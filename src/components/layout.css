@@ -4,21 +4,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #5c258d; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #4389a2,
-    #5c258d
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #4389a2,
-    #5c258d
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 article,
 aside,
@@ -240,8 +229,7 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -257,8 +245,7 @@ h2 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -274,8 +261,7 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -291,8 +277,7 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -308,8 +293,7 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -325,8 +309,7 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -343,7 +326,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -602,8 +585,7 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
-    "Liberation Mono", Menlo, Courier, monospace;
+  font-family: "Raleway", sans-serif;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -633,307 +615,119 @@ pre tt:after {
 
 /* MY Styles */
 
-.site {
-  display: flex;
-  min-height: 95vh;
-  flex-direction: column;
-}
-
 .socialIcons {
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
 }
 .socialIcons a {
-  color: white;
+  color: black;
 }
-.site-content {
-  flex-grow: 1;
-}
-.container {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-}
-.main-content {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 30px;
-  align-items: flex-end;
-}
-.main-content > div {
-  flex: 1;
-}
-
-.i {
-  /*color: red;*/
-}
-.DOWEB {
-  font-size: 150px;
-}
-.web {
-  /*color: #53fec8;*/
-}
-#Layer_1 {
-  margin-right: 20px;
-}
-#svg2 {
-  max-width: 600px;
-  max-height: 600px;
-}
-
-.aboutTheReido {
-  display: flex;
-  justify-content: space-between;
-}
-.aboutTheReido p {
-  color: #53fec8;
-}
-.aboutTheReido h1 {
-  text-decoration: underline;
-  color: #53fec8;
-}
-.aboutTheReido > div {
-  flex: 1;
-}
-.aboutTheReido .left {
-  margin-right: 30px;
-}
-.aboutTheReido .gatsby-image-wrapper {
-  border-radius: 50%;
-  border: 10px solid #53fec8;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-
-.contactPage {
-  display: flex;
-}
-
-.contactPageRight {
-  margin-left: 40px;
-}
-
-footer {
-  background: #000;
-  margin: 0;
-  height: 8vh;
-}
-
-footer ul {
+header ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   height: 8vh;
   margin-block-end: 0;
   margin-bottom: 0;
 }
-footer li {
+header li {
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: unset;
 }
-
-footer a {
-  color: #53fec8;
+nav {
+  margin-top: 30px;
 }
-a:any-link {
+
+.main-content,
+.site-content {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  line-height: 30px;
+}
+
+.main-content a,
+.site-content a {
+  color: black;
+  font-weight: 900;
+  text-decoration: underline;
+}
+header a {
+  color: black;
   text-decoration: none;
 }
-footer a:hover {
+
+header a:hover,
+header a:active {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 700px) {
-  .main-content {
-    flex-direction: column;
-  }
-  .main-content h1 {
-    margin-left: 20px;
-  }
-  .DOWEB {
-    font-size: 100px;
-  }
-  .main-content,
-  .aboutTheReido {
-    display: unset;
-  }
-  .contactPage {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .contactPageleft {
-    align-self: center;
-  }
-  .contactPageRight {
-    margin-left: unset;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
+.container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intoSection {
+  display: flex;
+  justify-content: space-between;
+}
+.intoSection h1,
+.intoSection h2 {
+  margin-bottom: 0;
+}
+.intoSection > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intoSection h2 {
+  color: gray;
 }
 
-@media only screen and (max-width: 390px) {
-  footer {
-    height: 300px;
-  }
-  footer ul {
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 40px;
-   
-  }
-  footer li {
-    margin-top: 20px;
-    font-size: 120%;
-  }
+.intoSection .gatsby-image-wrapper {
+  border-radius: 50%;
+  border: 10px solid black;
+  width: 40%;
 }
-
-/* Form CSS */
-
-#feedback-page {
-  text-align: center;
+form {
+  margin-top: 60px;
 }
-
-#form-div {
-  background-color: rgba(72, 72, 72, 0.4);
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 35px;
-  padding-bottom: 100px;
-  width: 450px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
-}
-
-.feedback-input {
-  color: #3c3c3c;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 0;
-  line-height: 22px;
-  background-color: #fbfbfb;
-  padding: 13px 13px 13px 54px;
-  margin-bottom: 10px;
+input,
+textarea {
   width: 100%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 3px solid rgba(0, 0, 0, 0);
-}
-
-.feedback-input:focus {
-  background: #fff;
-  box-shadow: 0;
-  border: 3px solid #3498db;
-  color: #3498db;
-  outline: none;
-  padding: 13px 13px 13px 54px;
-}
-
-.focused {
-  color: #30aed6;
-  border: #30aed6 solid 3px;
-}
-
-/* Icons ---------------------------------- */
-#name {
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#name:focus {
-  background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
-  background-size: 30px 30px;
-  background-position: 8px 5px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#email {
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-#email:focus {
-  background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
 }
 
 #comment {
-  background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
-  background-size: 30px 30px;
-  background-position: 11px 8px;
-  background-repeat: no-repeat;
-}
-
-textarea {
-  width: 100%;
-  height: 150px;
-  line-height: 150%;
-  resize: vertical;
-}
-
-input:hover,
-textarea:hover,
-input:focus,
-textarea:focus {
-  background-color: white;
+  min-height: 200px;
 }
 
 #button-blue {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  float: left;
-  width: 100%;
-  border: #fbfbfb solid 4px;
-  cursor: pointer;
-  background-color: #3498db;
+  background: black;
   color: white;
-  font-size: 24px;
-  padding-top: 22px;
-  padding-bottom: 22px;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
+  border: 1px solid white;
 }
 
-#button-blue:hover {
-  background-color: rgba(0, 0, 0, 0);
-  color: #0493bd;
+@media (max-width: 640px) {
+  header ul {
+    justify-content: space-around;
+  }
+  .intoSection {
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  .container {
+    max-width: 85%;
+  }
 }
 
-.submit:hover {
-  color: #3498db;
-}
-
-.submit:hover .ease {
-  width: 100%;
-  background-color: white;
-}
-
-@media only screen and (max-width: 580px) {
-  #form-div {
-    left: 3%;
-    margin-right: 3%;
-    width: 100%;
-    margin-left: 0;
+@media (max-width: 450px) {
+  .intoSection h1 {
+    font-size: 1.5rem;
+  }
+  .intoSection h2 {
+    font-size: 1.4rem;
   }
 }

@@ -6,10 +6,10 @@ import SEO from "../components/seo"
 
 const Work = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <SEO title="My Work" />
+    <p>
+      Below is a selection of some of the projects I have been involved with.
+    </p>
   </Layout>
 )
 
